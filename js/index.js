@@ -1,4 +1,3 @@
-var ip = 10.60;
 
 var mymap = L.map('map').setView([38.8935, -77.0145], 13);
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic2VyZ2lvbHNobSIsImEiOiJja283YWs5bTkxbWNzMnVscmJudzEycjJnIn0.7qCgZZeQr-DkybGvbPmYkg', {
@@ -12,7 +11,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 
 
 $("button").on("click", function() {
-  ip = $("#ip-input").val();
+  var ip = $("#ip-input").val();
     var api_key = "at_ac67UzPG45vQs8Ymd5lCJIDmz7CO1";
     $(function () {
        $.ajax({
@@ -37,22 +36,9 @@ $("button").on("click", function() {
                $("#location-h1").text(locCity + ", " + locCon);
                $("#timezone-h1").text("UTC: " + timeZone);
                $("#isp-h1").text(provider);
-
-
-
-
            }
        });
     });
-
-
-
-
-
-  // ip = $("#ip-input").val();
-  // ip = Number(ip);
-  // initMap(ip, -69.960898);
-  // console.log(ip);
 });
 
 

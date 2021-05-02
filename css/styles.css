@@ -1,10 +1,15 @@
 body {
   text-align: center;
   font-size: 18px;
+  font-family: 'Rubik', sans-serif;
 }
 
 .attribution {
   margin: 1% auto 0;
+}
+
+.border-desk {
+  border-right: 1px solid #dee2e6
 }
 
 .ip-box {
@@ -51,6 +56,15 @@ body {
 
 @media (max-width: 767px) {
 
+  .border-desk {
+    border-right: 0;
+  }
+
+  .ip-box {
+    position: relative;
+    bottom: 75px;
+  }
+
   #information-box {
     bottom: -375px;
     height: 400px;
@@ -63,11 +77,6 @@ body {
   }
 
   #h1-title {
-    position: relative;
-    bottom: 75px;
-  }
-
-  .ip-box {
     position: relative;
     bottom: 75px;
   }
