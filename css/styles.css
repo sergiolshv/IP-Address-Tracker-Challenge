@@ -1,0 +1,78 @@
+body {
+  text-align: center;
+  font-size: 18px;
+}
+
+.attribution {
+  margin: 1% auto 0;
+}
+
+.ip-box {
+  margin: auto;
+}
+
+#information-box {
+  background-color: #fff;
+  border-radius: 10px;
+  height: 100px;
+  margin: auto;
+  width: 75%;
+  bottom: -230px;
+}
+
+#information-box h1 {
+  font-size: 1.5rem;
+}
+
+#information-box p {
+  margin-top: 5px;
+  font-size: 1rem;
+  color: #969696;
+}
+
+#input-container {
+  background: url("../images/pattern-bg.png");
+  background-size: cover;
+  padding: 1% 3% 3% 3%;
+}
+
+#h1-title {
+  color: #fff;
+  margin: auto auto 1%;
+}
+
+#map {
+  height: 700px;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+
+  #information-box {
+    bottom: -375px;
+    height: 400px;
+    padding: 3%;
+    width: 400px;
+  }
+
+  #input-container {
+    padding: 15%;
+  }
+
+  #h1-title {
+    position: relative;
+    bottom: 75px;
+  }
+
+  .ip-box {
+    position: relative;
+    bottom: 75px;
+  }
+
+  #map {
+    height: 900px;
+  }
+}
