@@ -7,6 +7,6 @@
   - [jQuery](https://jquery.com/) - jQuery Library
 
 ### APIs Used
-- [Leaflet]("https://leafletjs.com/index.html") - Leaflet Map API
-- [MapBox]("https://www.mapbox.com/") - MapBox Street Tiles
-- [Ipify]("https://geo.ipify.org/") - IP Geolocation API
+- [Leaflet](https://leafletjs.com/index.html) - Leaflet Map API
+- [MapBox](https://www.mapbox.com/) - MapBox Street Tiles
+- [Ipify](https://geo.ipify.org/) - IP Geolocation API
